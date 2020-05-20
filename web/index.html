@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- BOOTSTRAP CSS -->
+        <link rel="stylesheet" id="mode" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+        <!-- MATERIAL DESIGN ICONS -->
+        <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.2.45/css/materialdesignicons.min.css">
+    </head>
+    <body>
+        <style>
+            .row .card-body{
+                text-align: center;
+                padding: 0;
+            }
+            .row .card-body span{
+                font-size: 150px;
+            }
+            .row .card-body .mdi-github{
+                color: #2C3E50;
+            }
+            .row .card-body .mdi-youtube{
+                color: #FF0000;
+            }
+            .row .card-body .mdi-post{
+                color: #632FB0;
+            }
+        </style>
+
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">CRUD SOAP - DATABASE</a>
+        </nav>
+
+        <div class="container my-5">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th colspan="2">Información</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="default">
+                                <th>Address:</th>
+                                <td>
+                                    <a href="http://localhost:8084/SoapPractice/ClientService" target="_blank">
+                                        http://localhost:8084/SoapPractice/ClientService
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>WSDL:</th>
+                                <td>
+                                    <a href="http://localhost:8084/SoapPractice/ClientService?wsdl" target="_blank">
+                                        http://localhost:8084/SoapPractice/ClientService?wsdl
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Implementation class:</th>
+                                <td>com.soap.services.ClientService</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 mt-4">
+                    <div class="card">
+                        <div class="card-header">
+                            ◘ Github
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/aimarandony/soap-crud-java" target="_blank">
+                                <span class="mdi mdi-github"></span>
+                            </a>                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mt-4">
+                    <div class="card">
+                        <div class="card-header">
+                            ◘ Youtube
+                        </div>
+                        <div class="card-body">
+                            <a href="#" target="_blank">
+                                <span class="mdi mdi-youtube"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mt-4">
+                    <div class="card">
+                        <div class="card-header">
+                            ◘ Guía Paso a Paso
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/aimarandony/soap-crud-java-guide" target="_blank">
+                                <span class="mdi mdi-post"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
